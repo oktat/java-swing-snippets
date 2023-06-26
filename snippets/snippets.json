@@ -1,0 +1,36 @@
+{
+    "swingFrameClass": {
+        "prefix": "fc",
+        "body": [
+            "import javax.swing.JFrame;",
+            "",
+            "public class Mainframe extends JFrame {",
+            "",
+            "    public Mainframe() {",
+            "",
+            "        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);",
+            "        this.setSize(400, 300);",
+            "        this.setVisible(true);",
+            "    }",
+            "}",
+            ""
+        ],
+        "description": "Insert Swing frame class"
+    },
+    "buttonDeclaration": {
+        "prefix": "but",
+        "body": [
+            "JButton fooButton;",
+            ""
+        ],
+        "description": "Insert Button declaraction"
+    },
+    "buttonDefinition": {
+        "prefix": "bun",
+        "body": [
+            "this.fooButton = new JButton(\"Foo\");",
+            ""
+        ],
+        "description": "Insert Button declaraction"
+    }
+}

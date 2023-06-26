@@ -1,0 +1,30 @@
+{
+  "name": "java-swing-snippets",
+  "version": "0.0.1",
+  "description": "java swing snippets",  
+  "displayName": "Java Swing Snippets",
+  "publisher": "andteki",
+  "icon": "images/swing.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oktat/vscode-swing-snippets"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "java",
+        "path": "snippets/snippets.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "vsce package"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "java-swing-snippets",
+  "name": "vscode-java-swing-snippets",
   "version": "0.0.1",
   "description": "java swing snippets",  
   "displayName": "Java Swing Snippets",
@@ -25,6 +25,6 @@
     ]
   },
   "scripts": {
-    "build": "vsce package"
+    "build": "vsce package --out dist/"
   }
 }

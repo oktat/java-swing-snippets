@@ -31,6 +31,24 @@
             "this.fooButton = new JButton(\"Foo\");",
             ""
         ],
-        "description": "Insert Button declaraction"
+        "description": "Insert Button initialization"
+    },
+    "create consturctor": {
+        "prefix": "con",
+        "body": [
+            "public ${1:$TM_FILENAME_BASE}() {",
+            "    ${2:}",
+            "}"
+        ],
+        "description": "Insert empty constructor"
+    },
+    "create class": {
+        "prefix": "cl",
+        "body": [
+            "class ${1:$TM_FILENAME_BASE} {",
+            "    ${2:}",
+            "}"
+        ],
+        "description": "Insert empty constructor"
     }
 }

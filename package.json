@@ -1,14 +1,19 @@
 {
   "name": "vscode-java-swing-snippets",
+  "displayName": "Java Swing Snippets",
+  "description": "VSCode snippets for Java Swing programming",  
   "version": "0.0.2",
-  "description": "VSCode java swing snippets",  
-  "displayName": "VSCode Java Swing Snippets",
-  "publisher": "Sallai András",
+  "publisher": "Andrew Sallai",
   "icon": "images/swing.png",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oktat/vscode-swing-snippets"
+    "url": "https://github.com/oktat/vscode-java-swing-snippets" 
+  },
+  "homepage": "https://github.com/oktat/vscode-java-swing-snippets",
+  "author": {
+    "name": "Sallai András",
+    "url": "https://github.com/oktat/vscode-java-swing-snippets"
   },
   "categories": [
     "Snippets"

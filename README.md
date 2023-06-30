@@ -1,5 +1,17 @@
 # VSCode Swing Snippets
 
+## Install
+
+Download the latest vscode-java-swing-snippets from:
+
+* [https://github.com/oktat/vscode-java-swing-snippets/releases](https://github.com/oktat/vscode-java-swing-snippets/releases)
+
+```cmd
+code --install-extension vscode-java-swing-snippets-x.y.z.vsix
+```
+
+Correct the characters x.y.z to the appropriate version numbers.
+
 ## Snippets
 
 * fc - JFrame class

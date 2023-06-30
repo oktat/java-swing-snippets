@@ -1,9 +1,9 @@
 {
   "name": "vscode-java-swing-snippets",
-  "version": "0.0.1",
-  "description": "java swing snippets",  
-  "displayName": "Java Swing Snippets",
-  "publisher": "andteki",
+  "version": "0.0.2",
+  "description": "VSCode java swing snippets",  
+  "displayName": "VSCode Java Swing Snippets",
+  "publisher": "Sallai András",
   "icon": "images/swing.png",
   "license": "MIT",
   "repository": {
